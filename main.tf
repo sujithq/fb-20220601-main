@@ -10,4 +10,6 @@ terraform {
 
 module rg {
     source = "git::https://github.com/sujithq/fb-20220601-module.git//module/rg"
+    name = "20220601-test"
+    location = "northeurope"
 }
